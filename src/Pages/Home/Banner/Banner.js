@@ -23,12 +23,11 @@ const Banner = () => {
             <Grid  container spacing={2}>
             <Grid  item xs={12} md={6} style={{...verticalCenter}}>
                <Box > 
-                <Typography sx={{mb:3}} style={{color: 'white'}} variant='h3'>
-                        Your New Smile <br />
-                        Starts Here
+                <Typography sx={{mb:3}} style={{color: 'white'}} variant='h4'>
+                        A Unique watch that fits  Your Style
                     </Typography>
                     <Typography  sx={{mb:3}} variant='h6' style={{color: 'white',fontSize: 14, fontWeight: 300}}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aperiam doloremque necessitatibus deleniti ipsam rerum <br /> <ArrowForwardIosIcon/> <NavLink 
+                    Explore the Watches collection of prestigious, high-precision timepieces. we offers a wide assortment of Oyster Perpetual and Cellini watches to suit any wrist. <br /> <ArrowForwardIosIcon/> <NavLink 
                         style={{ textDecoration: 'none', color: 'black',backgroundColor:'#5CE7' }} 
                         to='/explore'> 
                         <Button color="inherit">explore</Button>

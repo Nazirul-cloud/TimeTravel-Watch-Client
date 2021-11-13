@@ -41,6 +41,7 @@ const Navigation = () => {
                     <Box sx={{ flexGrow: 1}} />
                      <Box sx={{ display: { xs: 'flex', md: 'flex' }, flexWrap: 'wrap' }}>
                      <Link style={{ textDecoration: 'none', color: 'white'}}  to="/home"><Button color="inherit">Home</Button></Link>
+                     <Link style={{ textDecoration: 'none', color: 'white'}}  to="/explore"><Button color="inherit">Explore</Button></Link>
                    
                     {
                         user?.email ?
@@ -57,7 +58,7 @@ const Navigation = () => {
                     }
                   
                      <Typography  variant="h8" component="div" >
-                     Signed user: <br /> <a href="#login"> {user?.displayName}</a>
+                     <a href="#login" style={{textDecoration: 'none'}}> <img style={{width:"15%", borderRadius: "50%" }} className="rounded-circle mx-2" src={user.photoURL} alt="" /> {user?.displayName}</a>
                     </Typography>
                    
                     </Box>
